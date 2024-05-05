@@ -1,10 +1,6 @@
 import streamlit as st
 import pydeck as pdk
 import pandas as pd
-import matplotlib.pyplot as p
-import streamlit as st
-import pydeck as pdk
-import pandas as pd
 import matplotlib.pyplot as plt
 df = pd.read_csv('2017_Crashes.csv', nrows=10000)  # Reading Data file
 
